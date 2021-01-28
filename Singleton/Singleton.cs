@@ -14,8 +14,8 @@ namespace Singleton
 
         Singleton()
         {
-            persons.Add("010213/0812", new Person("John", "Doe", "020620/0269", new DateTime(2002, 6, 20)));
-            persons.Add("010213/0812", new Person("Jane", "Doe", "020621/0270", new DateTime(2002, 6, 21)));
+            persons.Add("020620/0269", new Person("John", "Doe", "020620/0269", new DateTime(2002, 6, 20)));
+            persons.Add("020621/0269", new Person("Jane", "Doe", "020621/0270", new DateTime(2002, 6, 21)));
             ;
         }
 
